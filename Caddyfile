@@ -1,0 +1,5 @@
+dozzle.localhost {
+    reverse_proxy http://dozzle:8080
+    tls internal
+}
+
