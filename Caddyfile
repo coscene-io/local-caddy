@@ -3,3 +3,8 @@ dozzle.localhost {
     tls internal
 }
 
+tpman.localhost {
+    reverse_proxy http://tpman:3000
+    tls internal
+}
+
